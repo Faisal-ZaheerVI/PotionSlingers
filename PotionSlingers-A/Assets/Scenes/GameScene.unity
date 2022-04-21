@@ -735,6 +735,7 @@ GameObject:
   - component: {fileID: 292815342}
   - component: {fileID: 292815341}
   - component: {fileID: 292815343}
+  - component: {fileID: 292815344}
   m_Layer: 5
   m_Name: Market_Potion (1)
   m_TagString: Untagged
@@ -812,6 +813,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fad593b64d472e4e8a02a236c644b59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &292815344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292815339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090810f65fe479e49a1497d6ce5fbf55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 0}
+  artworkImage: {fileID: 0}
 --- !u!1 &313326858
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,6 +1113,7 @@ GameObject:
   - component: {fileID: 486512868}
   - component: {fileID: 486512867}
   - component: {fileID: 486512869}
+  - component: {fileID: 486512870}
   m_Layer: 5
   m_Name: Market_Potion (3)
   m_TagString: Untagged
@@ -1175,6 +1191,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fad593b64d472e4e8a02a236c644b59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &486512870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486512865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090810f65fe479e49a1497d6ce5fbf55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 0}
+  artworkImage: {fileID: 0}
 --- !u!1 &541720936
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,6 +2489,7 @@ GameObject:
   - component: {fileID: 1168455950}
   - component: {fileID: 1168455952}
   - component: {fileID: 1168455951}
+  - component: {fileID: 1168455953}
   m_Layer: 5
   m_Name: PotionPile
   m_TagString: Untagged
@@ -2524,6 +2555,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168455949}
   m_CullTransparentMesh: 1
+--- !u!114 &1168455953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168455949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 852838df1b7fe304f90824c464f1dcd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deckList:
+  - {fileID: 0}
+  cardDisplay1: {fileID: 292815344}
+  cardDisplay2: {fileID: 2065021267}
+  cardDisplay3: {fileID: 486512870}
 --- !u!1 &1246341449
 GameObject:
   m_ObjectHideFlags: 0
@@ -3841,6 +3889,7 @@ GameObject:
   - component: {fileID: 1650009148}
   - component: {fileID: 1650009150}
   - component: {fileID: 1650009149}
+  - component: {fileID: 1650009151}
   m_Layer: 5
   m_Name: Market_Area
   m_TagString: Untagged
@@ -3909,6 +3958,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1650009147}
   m_CullTransparentMesh: 1
+--- !u!114 &1650009151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650009147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e6bb6f9e6d44eb6b62f8ae358fd5c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potions: {fileID: 0}
+  specials: {fileID: 0}
 --- !u!1 &1714507733
 GameObject:
   m_ObjectHideFlags: 0
@@ -4593,6 +4656,7 @@ GameObject:
   - component: {fileID: 2065021265}
   - component: {fileID: 2065021264}
   - component: {fileID: 2065021266}
+  - component: {fileID: 2065021267}
   m_Layer: 5
   m_Name: Market_Potion (2)
   m_TagString: Untagged
@@ -4670,6 +4734,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fad593b64d472e4e8a02a236c644b59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2065021267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065021262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090810f65fe479e49a1497d6ce5fbf55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 0}
+  artworkImage: {fileID: 0}
 --- !u!1 &2083794568
 GameObject:
   m_ObjectHideFlags: 0
