@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cbd63c3b24d3cc419e6328b71b87184, type: 3}
+  m_Name: CursedCuccumellaofClumsyAcidicCoffee
+  m_EditorClassIdentifier: 
+  id: 0
+  cardName: ' Cursed Cuccumella of Clumsy Acidic Coffee'
+  cardType: Vessel
+  cardEffect: Hot/Wet Bonus
+  effectAmount: 0
+  cardQuality: Hot/Wet
+  cardSprite: {fileID: 21300000, guid: 5f0388af038d4b0488141381a4e0a48d, type: 3}
+  buyPrice: 6
+  sellPrice: 3
+  desc: 'Hot Bonus: Opponent trashes 1 card. Wet Bonus: Opponent trashes 1 card'
