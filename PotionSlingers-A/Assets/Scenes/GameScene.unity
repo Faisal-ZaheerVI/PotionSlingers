@@ -1502,6 +1502,7 @@ GameObject:
   - component: {fileID: 628987348}
   - component: {fileID: 628987350}
   - component: {fileID: 628987349}
+  - component: {fileID: 628987351}
   m_Layer: 5
   m_Name: SpecialCardPile
   m_TagString: Untagged
@@ -1567,6 +1568,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628987347}
   m_CullTransparentMesh: 1
+--- !u!114 &628987351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628987347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 852838df1b7fe304f90824c464f1dcd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deckList:
+  - {fileID: 11400000, guid: e1bc2ee02ad23984e91cbd35ed9550fd, type: 2}
+  - {fileID: 11400000, guid: 44b30fca98184489f94bc1dbe661582a, type: 2}
+  - {fileID: 11400000, guid: 2fe76a20cc5c349da905c61a985e8c4e, type: 2}
+  - {fileID: 11400000, guid: 800853ae6dc12d54589da2296344c598, type: 2}
+  - {fileID: 11400000, guid: 43eaf9d1e2af60245a732309cb333bb3, type: 2}
+  - {fileID: 11400000, guid: 0c473cfd616fd4845976385a87a91145, type: 2}
+  - {fileID: 11400000, guid: c7fbd61646828774a8f3becbf5f13bfd, type: 2}
+  - {fileID: 11400000, guid: 841e28772dea24207abc3d92c5966fb9, type: 2}
+  - {fileID: 11400000, guid: afdd0ca9580c24f98a3bf484ab9b5d53, type: 2}
+  - {fileID: 11400000, guid: 87c0289f2e5474f5896ffff52bdcfd5f, type: 2}
+  cardDisplay1: {fileID: 908084162}
+  cardDisplay2: {fileID: 690513024}
+  cardDisplay3: {fileID: 1831950244}
 --- !u!1 &683560594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,8 +1686,9 @@ GameObject:
   - component: {fileID: 690513022}
   - component: {fileID: 690513021}
   - component: {fileID: 690513023}
+  - component: {fileID: 690513024}
   m_Layer: 5
-  m_Name: Market_Ring
+  m_Name: Market_Special (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1736,6 +1764,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fad593b64d472e4e8a02a236c644b59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &690513024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690513019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090810f65fe479e49a1497d6ce5fbf55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 0}
+  artworkImage: {fileID: 0}
 --- !u!1 &691912460
 GameObject:
   m_ObjectHideFlags: 0
@@ -2069,8 +2111,9 @@ GameObject:
   - component: {fileID: 908084160}
   - component: {fileID: 908084159}
   - component: {fileID: 908084161}
+  - component: {fileID: 908084162}
   m_Layer: 5
-  m_Name: Market_Artifact
+  m_Name: Market_Special (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2146,6 +2189,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fad593b64d472e4e8a02a236c644b59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &908084162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908084157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090810f65fe479e49a1497d6ce5fbf55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 0}
+  artworkImage: {fileID: 0}
 --- !u!114 &933143404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2568,7 +2625,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deckList:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: a180eed59bc6d2e4ba6d2000058be65e, type: 2}
+  - {fileID: 11400000, guid: e6fb4d251bf23c542b1f73038b410fcf, type: 2}
+  - {fileID: 11400000, guid: d5fc0acc341164d8693e48ae843d993f, type: 2}
+  - {fileID: 11400000, guid: 8abdf06eefc0943f786de160999fb27e, type: 2}
+  - {fileID: 11400000, guid: e78677916018143b2afeede71aebf070, type: 2}
+  - {fileID: 11400000, guid: 767ec31c7cee547d4a3fe40bf89794cf, type: 2}
+  - {fileID: 11400000, guid: a7e24458759824ed8822bb8223cc420e, type: 2}
+  - {fileID: 11400000, guid: 6901b9df27d5d6b48aaf43a7968f97ce, type: 2}
+  - {fileID: 11400000, guid: f80a496f2aa5340c9a4bfc56e8be0b7b, type: 2}
   cardDisplay1: {fileID: 292815344}
   cardDisplay2: {fileID: 2065021267}
   cardDisplay3: {fileID: 486512870}
@@ -3970,7 +4035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05e6bb6f9e6d44eb6b62f8ae358fd5c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  potions: {fileID: 0}
+  potions: {fileID: 1168455953}
   specials: {fileID: 0}
 --- !u!1 &1714507733
 GameObject:
@@ -4179,8 +4244,9 @@ GameObject:
   - component: {fileID: 1831950242}
   - component: {fileID: 1831950241}
   - component: {fileID: 1831950243}
+  - component: {fileID: 1831950244}
   m_Layer: 5
-  m_Name: Market_Vessel
+  m_Name: Market_Special (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4256,6 +4322,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fad593b64d472e4e8a02a236c644b59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1831950244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831950239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090810f65fe479e49a1497d6ce5fbf55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 0}
+  artworkImage: {fileID: 0}
 --- !u!1 &1865351851
 GameObject:
   m_ObjectHideFlags: 0
